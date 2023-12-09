@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="User name:"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_marginLeft="-50dp"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:inputType="textPersonName"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:hint="Username"
+		android:id="@+id/user"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Password :"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="-50dp"/>
+
+	<EditText
+		android:layout_width="wrap_content"
+		android:inputType="textPassword"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:hint="Password"
+		android:id="@+id/pass"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_height="wrap_content"
+		android:text="Save"
+		android:id="@+id/save"
+		android:layout_margin="10dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="✓"
+		android:padding="10dp"
+		android:layout_margin="20dp"
+		android:gravity="top"/>
+
+	<TextView
+		android:text="..."
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/mainTextView"
+		android:textIsSelectable="true"
+		android:padding="10dp"
+		android:layout_margin="10dp"/>
+
+</LinearLayout>
+
