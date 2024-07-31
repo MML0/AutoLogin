@@ -3,14 +3,14 @@ apk to automate login process for khu
 
 ## android version
 
-(release)[https://github.com/MML0/AutoLogin/releases/download/apk/AutoLogin.apk]
+[release](https://github.com/MML0/AutoLogin/releases/download/apk/AutoLogin.apk)
 
 ## windows version 
 batch file for windows 
 
 
 edit user and password in a notpad and put it in a *.bat file
-bat file (link)[https://github.com/MML0/AutoLogin/blob/main/auto%20login.bat]
+bat file [link](https://github.com/MML0/AutoLogin/blob/main/auto%20login.bat)
 
 ```batch
 @echo off
