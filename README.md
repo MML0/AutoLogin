@@ -1,9 +1,13 @@
 # AutoLogin
 apk to automate login process for khu
 
-## batch file for PC
 
-edit user and pass in a notpad and put it in a *.bat file
+
+### windows 
+batch file for windows 
+
+
+edit user and password in a notpad and put it in a *.bat file
 
 ```batch
 @echo off
